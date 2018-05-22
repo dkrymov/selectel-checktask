@@ -1,0 +1,43 @@
+{"status": "ok", "ticket_id": "1"}
+{"status": "ok"}
+{"status": "error", "msg": "Such ticket doesn't exist"}
+{"status": "ok"}
+{"status": "error", "msg": "Exception: Status could not be changed"}
+{
+    "status": "ok",
+    "ticket": {
+        "Status": "answered",
+        "Created": "Tue May 22 14:07:42 2018",
+        "Modified": "Tue May 22 14:07:42 2018",
+        "Comments": [
+            {
+                "Email": "email@domain.com",
+                "Contents": "comment 1",
+                "Created": "Tue May 22 14:07:42 2018"
+            }
+        ],
+        "ID": 1,
+        "Email": "mail@da.net",
+        "Contents": "dfgsdfgsdfg",
+        "Subject": "subject"
+    }
+}
+{
+    "status": "ok",
+    "ticket": {
+        "Status": "answered",
+        "Created": "Tue May 22 14:07:42 2018",
+        "Modified": "Tue May 22 14:07:42 2018",
+        "Comments": [
+            {
+                "Email": "email@domain.com",
+                "Contents": "comment 1",
+                "Created": "Tue May 22 14:07:42 2018"
+            }
+        ],
+        "Email": "mail@da.net",
+        "ID": 1,
+        "Contents": "dfgsdfgsdfg",
+        "Subject": "subject"
+    }
+}
